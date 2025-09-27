@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhejiang</title>
+
+  <link rel="icon" type="image/x-icon" href="../images/favicons/favicon.ico">
+    
+  
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../stylesheet.css">
+  <link rel="stylesheet" href="../css/travel_map.css">
+  <link rel="stylesheet" href="../css/travel_notes.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cloud Driver 雲端司機</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../publications.html">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../transfer_guide.html">Transfer Guide</a>
+                  </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="offcanvas" href="#contact_me" role="button" class="nav-link">Contact Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Misc
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../misc/travel_map.html">Travel Map</a></li>
+                      <li><a class="dropdown-item" href="../misc/music.html">Music</a></li>
+                        <!-- <li><a class="dropdown-item" href="./game.html">Game</a></li> -->
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="contact_me" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contact Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <strong>WeChat:</strong><br>
+            DiudiuandMoon
+            <hr>
+            <strong>RedNote/小红书:</strong><br>
+            9428710724
+        </div>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/d3.v7.min.js"></script>
+
+    <main>
+        <section class="py-5 text-center container">
+          <div class="row">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Zhejiang - 浙江</h1>
+              <p class="lead text-body-secondary">Zhejiang is an eastern coastal province of China. Its capital and largest city is Hangzhou (which is my hometown), and other notable cities include Ningbo and Wenzhou.</p>
+            </div>
+          </div>
+        </section>
+
+
+        <div class="text-center mb-4">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-outline-primary filter-btn active" data-filter="all">All</button>
+            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="people">People</button>
+            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="food">Food</button>
+            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="misc">Misc</button>
+          </div>
+        </div>
+      
+        <div class="album bg-body-tertiary">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col" data-category="people">
+                <div class="card shadow-sm">
+                  <img src="../images/travel_notes/China/zhejiang/ningbo_1.JPG" class="card-img-top" alt="Ningbo" style="width: 100%; height: 300px; object-fit: cover;">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary">Ningbo</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col" data-category="food">
+                <div class="card shadow-sm">
+                  <img src="../images/travel_notes/China/zhejiang/ningbo_2.JPG" class="card-img-top" alt="Ningbo" style="width: 100%; height: 300px; object-fit: cover;">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary">Ningbo</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col" data-category="misc">
+                <div class="card shadow-sm">
+                  <img src="../images/travel_notes/China/zhejiang/ningbo_3.JPG" class="card-img-top" alt="Ningbo" style="width: 100%; height: 300px; object-fit: cover;">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary">Ningbo</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col" data-category="misc">
+                <div class="card shadow-sm">
+                  <img src="../images/travel_notes/China/zhejiang/ningbo_4.JPG" class="card-img-top" alt="Ningbo" style="width: 100%; height: 300px; object-fit: cover;">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary">Ningbo</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      
+      </main>
+
+</body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.col[data-category]');
+    
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        
+        const filterValue = this.getAttribute('data-filter');
+        
+        cards.forEach(card => {
+          if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+  });
+  </script>
+
+</html>
